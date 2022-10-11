@@ -10,13 +10,13 @@ const InputSez = () => {
                 <form>
 
                     <input type="text" />
-                    <button className="addToDoBtn" onClick={ (e) => {inputValue = addFunc(e)} }>Add</button>
+                    <button className="addToDoBtn" onClick={ (e) => {addFunc(e)} }>Add</button>
                     
                 </form>
 
             </div>
 
-            <ToDoSez inputValue={test}/>
+            <ToDoSez />
         </>
     );
 }

@@ -1,11 +1,11 @@
 import ToDo from "./toDo";
 
-const ToDoSez = (props) => {
+const ToDoSez = () => {
 
 
     return (
         <div className="toDoSez">
-            <ToDo textToDo={props.inputValue} />
+            <ToDo textToDo={""} />
         </div>
     );
 }
