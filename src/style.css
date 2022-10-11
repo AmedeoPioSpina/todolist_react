@@ -1,0 +1,56 @@
+.toDoList {
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.toDoList .inputSez {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.toDoList .inputSez form {
+  display: flex;
+}
+.toDoList .inputSez form input {
+  border-bottom-left-radius: 5px;
+  border: 2px solid red;
+  border-top-left-radius: 5px;
+}
+.toDoList .inputSez form input:focus {
+  outline: none;
+}
+.toDoList .inputSez form .addToDoBtn {
+  background-color: red;
+  border: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+.toDoList .toDoSez {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0.25rem;
+}
+.toDoList .toDoSez .toDo {
+  background-color: rgb(255, 162, 162);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem 0.25rem;
+}
+.toDoList .toDoSez .toDo p {
+  margin: 1rem 1rem;
+}
+.toDoList .toDoSez .toDo .deleteBtn {
+  background-color: red;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.toDoList .toDoSez .toDo .deleteBtn img {
+  width: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
