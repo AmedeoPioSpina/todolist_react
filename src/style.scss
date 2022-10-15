@@ -3,6 +3,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    min-height: calc(100vh - 2rem - 4px);
     margin: 1rem;
     .inputSez{
         display: flex;
@@ -30,6 +31,7 @@
     .toDoSez{
         border: 2px solid black;
         border-radius: 5px;
+        flex-grow: 2;
         margin: 0.25rem;
         .toDo{
             background-color: rgb(255, 162, 162);
@@ -39,6 +41,7 @@
             margin: 0.3rem 0.25rem;
             p{
                margin: 1rem 1rem;
+               overflow-wrap: anywhere;
             }
             .deleteBtn{
                 background-color: red;

@@ -1,9 +1,10 @@
-export const addFunc = (e) => {
+import ToDo from "./toDo";
+
+export const addFunc = () => {
     const addBtn = document.querySelector(".addToDoBtn");
     const inputValue = document.querySelector("input").value;
-    e.preventDefault();
 
     if(inputValue.split(" ") !== ""){
-       return inputValue
+        return inputValue;
     }
 }

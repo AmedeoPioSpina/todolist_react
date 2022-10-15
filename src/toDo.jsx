@@ -1,14 +1,18 @@
-const ToDo = (props) => {
+import { removeToDoFunc } from "./removeToDoFunc.js";
+
+const ToDo = ({value}, {index}) => {
+
+    
     return (
 
-        <div className="toDo">
-        <p>
-            {props.textToDo}
-        </p>
-        <button className="deleteBtn">
-            <img src={require("./images/icons8-elimina-per-sempre-60.png")} />
-        </button>
-    </div>
+        <div className="toDo" key={index}>
+            <p>
+                {value}
+            </p>
+            <button className="deleteBtn" onClick={(e) => {removeToDoFunc(e);}}>
+                <img src={require("./images/icons8-elimina-per-sempre-60.png")} />
+            </button>
+        </div>
 
     );
 }
