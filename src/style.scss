@@ -9,24 +9,22 @@
         display: flex;
         justify-content: center;
         margin: 1rem 0;
-        form{
-            display: flex;
-            input{
-                border-bottom-left-radius: 5px;
-                border: 2px solid red;
-                border-top-left-radius: 5px;
-                &:focus{
-                    outline: none;
-                }
+        input{
+            border-bottom-left-radius: 5px;
+            border: 2px solid red;
+            border-top-left-radius: 5px;
+            &:focus{
+                outline: none;
             }
-            .addToDoBtn{
-                background-color: red;
-                border: 0;
-                border-bottom-right-radius: 5px;
-                border-top-right-radius: 5px;
-                color: white;
-            }        
         }
+        .addToDoBtn{
+            background-color: red;
+            border: 0;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }        
+        
     }
     .toDoSez{
         border: 2px solid black;

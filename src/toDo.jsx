@@ -1,8 +1,11 @@
-const ToDo = ({value}, {index}) => {
+import { useEffect } from "react";
 
-    const handleClick = (e) => {
-        const toDoElement = e.target.closest(".toDo")
-        toDoElement.remove();
+const ToDo = (prop) => {
+
+    let {value, index, setWhatToDoList} = prop;
+
+    const handleClick = () => {
+        setWhatToDoList();
     }
 
     return (
